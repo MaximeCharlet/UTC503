@@ -19,7 +19,7 @@ Assembleur : paradigme impératif, paradigme déclaratif, paradigme de métaprog
 Logo : paradigme objet, paradigme procédural, paradigme réflexion
 Css : paradigme descriptif
 
-**Question**
+**Questions :**
 Qu'est ce qu'un programme dit reflexif ? C'est un programme auto-modifiant ?
 
 ## Question 5
