@@ -72,17 +72,71 @@ Le site : Stack overflow.
 La limite des appels récursifs est la taille de la mémoire disponible car si elle vient à manquer la pile ou stack finie par débordé (overflow).
 
 ## Exercice 6
+# define N 5
+```c
+void mapDouble(int e[], int r[]){
+  for(int i=0; i<5;i=i+1){
+    r[i]=e[i] * 2;
+  }
+}
 
+void mapTriple(int e[], int r[]){
+  for(int i=0; i<5;i=i+1){
+    r[i]=e[i] * 3;
+  }
+}
+
+void mapSquare(int e[], int r[]){
+  for(int i=0; i<5;i=i+1){
+    r[i]=e[i] * e[i];
+  }
+}
+
+void mapMaximize3(int e[], int r[]){
+  // je ne comprends pas le calcul à faire
+}
+
+int main() {
+  int e[N] ={1, 5, 2, 4, 3};
+  int r_double[N];
+  mapDouble(e, r_double); // r_double contiendra (2, 10, 4, 8, 6)
+  int r_triple[N];
+  mapTriple(e, r_triple); // r_triple contiendra (3, 15, 6, 12, 9)
+  int r_square[N];
+  mapSquare(e, r_square); // r_square contiendra (1, 24, 4, 16, 9)
+  int r_maximize3[N];
+  mapMaximize3(e, r_maximize3); // r_maximize contiendra (1, 3, 2, 3, 3)
+}
+```
 ## Exercice 7
 *Dans Ex6, d'une fonction à l'autre, n'avez-vous pas éprouvé une sensation de "déjà vue" ?*
 *Peut-on factorise ce code ?*
 *Quel mécanisme nous faudrait-il ?*
+Si même si avec une boucle le code est réduis au minimum.
 
 ## Exercice 8
 *Que pensez-vous de ces 3 codes : avantages/inconvénients?*
-
+Code 1 : Facilité de lecture.
+Code 2 : Un peu plus complexe mais plus factorisé.
+Code 3 : Code factorise et chaque fonction à sa propre fonction.
 *Y-a-t'il moyen de faire mieux en langage impératif?*
-
+Non
 *Quel mécanisme nous faudrait-il?*
+La mécanique objet.
 
 ## Exercice 9
+** CODE A OPTIMISER **
+to star
+  repeat 1 [ rt 90 ]
+  repeat 5 [ fd 100 rt 144 ]
+  repeat 1 [ fd 150]
+  repeat 5 [ fd 100 rt 144 ]
+  repeat 1 [ fd 150]
+  repeat 5 [ fd 100 rt 144 ]
+  repeat 1 [ fd 150]
+  repeat 5 [ fd 100 rt 144 ]
+  repeat 1 [ fd 150]
+  repeat 5 [ fd 100 rt 144 ]
+end
+clearscreen
+star
