@@ -72,8 +72,8 @@ Le site : Stack overflow.
 La limite des appels récursifs est la taille de la mémoire disponible car si elle vient à manquer la pile ou stack finie par débordé (overflow).
 
 ## Exercice 6
-# define N 5
 ```c
+# define N 5
 void mapDouble(int e[], int r[]){
   for(int i=0; i<5;i=i+1){
     r[i]=e[i] * 2;
