@@ -125,7 +125,7 @@ Non
 La mécanique objet.
 
 ## Exercice 9
-** CODE A OPTIMISER **
+**CODE A OPTIMISER**
 ```logo
 to star
   repeat 1 [ rt 90 ]
