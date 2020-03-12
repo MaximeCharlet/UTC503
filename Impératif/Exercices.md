@@ -126,6 +126,7 @@ La mécanique objet.
 
 ## Exercice 9
 ** CODE A OPTIMISER **
+```logo
 to star
   repeat 1 [ rt 90 ]
   repeat 5 [ fd 100 rt 144 ]
@@ -140,3 +141,4 @@ to star
 end
 clearscreen
 star
+```
